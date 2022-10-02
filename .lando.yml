@@ -1,0 +1,24 @@
+name: movies-app
+recipe: drupal9
+config:
+  webroot: drupal/web
+  xdebug: "debug,develop"
+  php: 7.4
+  composer_version: "2.0.7"
+  drush: "^11"
+  database: 'mysql:5.7'
+  myservice:
+    type: mysql
+    creds:
+      user: mysql -> drupal9
+      password: mysql -> drupal9
+      database: database -> drupal9
+services:
+  appserver:
+    build:
+      - composer install
+tooling:
+  drush:
+    service: appserver
+    env:
+      DRUSH_OPTIONS_URI: "https://movies-app.lndo.site"

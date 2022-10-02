@@ -1,0 +1,216 @@
+/* ---------- Color Module Styles ----------- */
+
+#page,
+#main-wrapper,
+.region-primary-menu .menu-item a.is-active,
+.region-primary-menu .menu-item--active-trail a {
+  background: #fff;
+}
+
+.tabs ul.primary li a.is-active {
+  background-color: #fff;
+}
+
+.tabs ul.primary li.is-active a {
+  background-color: #fff;
+  border-bottom-color: #fff;
+}
+
+#navbar-top {
+  background-color: #6485C1;
+}
+
+#navbar-main {
+  background-color: #6485C1;
+  margin-bottom: 2em;
+}
+
+a,
+.link {
+  color: #6485C1;
+}
+
+a:hover,
+a:focus,
+.link:hover,
+.link:focus {
+  color: #6485C1;
+}
+
+a:active,
+.link:active {
+  color: #6485C1;
+}
+
+.page-item.active .page-link {
+  background-color: #6485C1;
+  border-color: #6485C1;
+}
+
+.page-link,
+.page-link:hover {
+  color: #0071b3;
+}
+
+.sidebar .block {
+  background-color: #f6f6f2;
+  border-color: #f9f9f9;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #6485C1;
+}
+
+.site-footer {
+  background: #6485C1;
+}
+
+.region-header,
+.region-header a,
+.region-header li a.is-active,
+.region-header .site-branding__text,
+.region-header .site-branding,
+.region-header .site-branding__text a,
+.region-header .site-branding a,
+.region-secondary-menu .menu-item a,
+.region-secondary-menu .menu-item a.is-active {
+  color: #fffeff;
+}
+
+/* ---------- Color Form ----------- */
+
+[dir="rtl"] .color-form .color-palette {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+[dir="rtl"] .color-form .form-item label {
+  float: right;
+}
+
+[dir="rtl"] .color-form .color-palette .lock {
+  right: -20px;
+  left: 0;
+}
+
+.navbar .navbar-expand-md a {
+  color: #fff;
+}
+
+.navbar .navbar-light:hover {
+  color: rgb(214, 207, 207) ;
+}
+
+.block-field-blocknodemovietitle .field--name-title {
+  font-size: 36px;
+}
+
+.field--name-field-synopsis,  .field--name-title {
+  font-size: 20px;
+  color: #6485C1;
+  font-weight: 700;
+  line-height: 2em;
+}
+
+.search-block-form h2 {
+  margin-left: 1em;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+h2 {
+  color: #6485C1;
+  font-weight: 700;
+}
+
+.btn-primary {
+  background-color: #6485C1 !important;
+}
+
+.field--name-field-synopsis p {
+  font-size: 14px;
+  color: #4c4d4e;
+  font-weight: 400;
+}
+
+.site-footer .block {
+  border: none;
+  margin: 0;
+}
+
+.site-footer {
+   padding: 0;
+}
+
+.navbar-nav a {
+  color: #f6f6f2;
+}
+
+.navbar-nav a:hover {
+  color: #dbdbd4;
+}
+
+.field--name-field-poster  {
+  padding-top: 1em;
+}
+
+.view-id-movie .views-field-title {
+  font-size: 14px;
+  color: #4c4d4e;
+  font-weight: 400;
+  padding-bottom: 2em;
+}
+
+.view-id-movie .views-field-title .field-content a {
+  font-size: 14px;
+  color: #4c4d4e;
+  font-weight: 400;
+}
+
+.navbar-nav {
+  text-align: justify-content-end;
+}
+body.toolbar-horizontal.toolbar-tray-open #navbar-top.fixed-top,
+body.toolbar-horizontal.toolbar-tray-open #navbar-main.fixed-top {
+   top: 60px !important; 
+}
+
+.view-display-id-block_movie_spotlight {
+  text-align: center;
+  margin-top: 3em;
+}
+
+.block-views-blockmovie-block-movie-spotlight {
+  text-align: center;
+  margin-top: 3em;
+}
+
+.view-display-id-block_movie_spotlight .views-field-title  {
+  font-size: 14px;
+  margin-top: 1em;
+  text-align: center;
+  width: 300px;
+  border-radius: 6px;
+}
+
+.view-display-id-block_movie_spotlight .views-field-title  a {
+  font-size: 14px;
+}
+
+.view-display-id-block_movie_spotlight .views-field-field-poster  {
+  margin-top: 2em;
+}
+
+.pagination-heading {
+  text-align: justify-content-end;
+}
+
+.view-display-id-block_movie_spotlight .pagination {
+  float: right;
+}
