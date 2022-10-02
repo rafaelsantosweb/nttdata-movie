@@ -21,7 +21,7 @@ settings:
   handler: 'default:file'
   handler_settings: {  }
   file_directory: actor
-  file_extensions: 'png gif jpg jpeg webp jpf jpgxr jfif'
+  file_extensions: 'png gif jpg jpeg webp jpf jpgxr jfifi'
   max_filesize: '2 MB'
   max_resolution: ''
   min_resolution: ''

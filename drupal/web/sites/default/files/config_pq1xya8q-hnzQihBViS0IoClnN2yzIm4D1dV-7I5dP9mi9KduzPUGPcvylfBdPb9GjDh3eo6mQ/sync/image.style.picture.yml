@@ -1,0 +1,15 @@
+uuid: 071955b2-ffea-46fd-aa7a-27de98547858
+langcode: en
+status: true
+dependencies: {  }
+name: picture
+label: picture
+effects:
+  dc94a38b-2690-461e-8c81-6d13914ba00d:
+    uuid: dc94a38b-2690-461e-8c81-6d13914ba00d
+    id: image_scale
+    weight: 1
+    data:
+      width: 400
+      height: null
+      upscale: false

@@ -89,7 +89,7 @@ third_party_settings:
                 label: hidden
                 settings:
                   image_link: ''
-                  image_style: movie_b
+                  image_style: picture
                   image_loading:
                     attribute: lazy
                 third_party_settings: {  }
