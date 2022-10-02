@@ -1,7 +1,6 @@
 # nttdata-movie
 NTTDATA TEST
 
-
 ## Prerequisites
 ![Lando](https://github.com/lando/lando/releases/tag/v3.0.0-rc.20)
 
@@ -10,8 +9,7 @@ In order to initiate the Lando stack, run
 ```
 $ lando start
 ```
-which will create the following containers: appserver (Apache + PHP), database
-(MySQL) and Node (Node.js + Gulp).
+which will create the following containers: appserver (Nginx + PHP), database
 
 #### Importing the initial database with Lightning
 Download the latest database from our project's Google Drive and run
@@ -31,7 +29,7 @@ $ cd docroot/sites/default
 
 Create a settings.php (mandatory file for Drupal installations) on
 www/docroot/sites/default by copying the default one from
-[drupal.org](https://api.drupal.org/api/drupal/sites%21default%21default.settings.php/8.7.x).
+[drupal.org]
 
 ##### Add the following database pointing at the end of it:
 ```
@@ -73,6 +71,5 @@ inside "www/docroot".\
 every path (something like we did for "theme" - check .lando.yml and script.sh).
 
 ## Theme development
-In order to run NPM or Gulp commands on theme level, use
-```
+custom bootstrap_barrio generate cli
 
