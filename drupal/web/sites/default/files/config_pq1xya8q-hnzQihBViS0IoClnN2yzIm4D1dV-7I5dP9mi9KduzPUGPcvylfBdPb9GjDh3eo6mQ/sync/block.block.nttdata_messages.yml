@@ -1,0 +1,22 @@
+uuid: f15d6636-299e-4752-993f-c14753b71f4a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - nttdata
+_core:
+  default_config_hash: 9RnnTUBcn0WRWXfrGOnId2H0Q31uQUeu_F5TnDxl2yg
+id: nttdata_messages
+theme: nttdata
+region: header
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

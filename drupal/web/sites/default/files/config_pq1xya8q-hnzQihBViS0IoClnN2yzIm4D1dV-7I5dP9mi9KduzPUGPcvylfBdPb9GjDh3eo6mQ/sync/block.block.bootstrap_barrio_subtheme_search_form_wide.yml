@@ -1,0 +1,28 @@
+uuid: 41a5ffae-e22b-4124-a851-240ea8fc8453
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+    - system
+  theme:
+    - bootstrap_barrio_subtheme
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: bootstrap_barrio_subtheme_search_form_wide
+theme: bootstrap_barrio_subtheme
+region: top_header
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search Movie'
+  label_display: visible
+  provider: search
+  page_id: ''
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "/search\r\n/search/*\r\n/movie"

@@ -1,0 +1,20 @@
+uuid: cda8f97b-e5ff-4705-b193-618c8a042b09
+langcode: en
+status: true
+dependencies:
+  theme:
+    - nttdata
+_core:
+  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
+id: nttdata_page_title
+theme: nttdata
+region: header
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

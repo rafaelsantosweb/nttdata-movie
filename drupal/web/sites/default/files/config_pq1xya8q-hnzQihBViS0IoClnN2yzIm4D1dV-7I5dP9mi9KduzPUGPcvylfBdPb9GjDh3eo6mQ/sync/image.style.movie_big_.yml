@@ -1,0 +1,14 @@
+uuid: 7e0e2966-b409-436f-a0db-8e4327d19c81
+langcode: en
+status: true
+dependencies: {  }
+name: movie_big_
+label: 'movie mini relation'
+effects:
+  69e47146-ff08-4cc2-9b7b-502eea381402:
+    uuid: 69e47146-ff08-4cc2-9b7b-502eea381402
+    id: image_resize
+    weight: 1
+    data:
+      width: 120
+      height: 180

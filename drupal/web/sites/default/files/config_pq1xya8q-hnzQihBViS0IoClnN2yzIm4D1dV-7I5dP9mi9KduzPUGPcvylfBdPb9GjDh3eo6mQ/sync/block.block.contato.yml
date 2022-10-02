@@ -1,0 +1,25 @@
+uuid: 948dbf43-d78b-45a4-9087-1ae83df599db
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4593c21f-4d93-4102-b02d-906bd8e27e5d'
+  module:
+    - block_content
+  theme:
+    - bootstrap_barrio_subtheme
+id: contato
+theme: bootstrap_barrio_subtheme
+region: footer_first
+weight: -7
+provider: null
+plugin: 'block_content:4593c21f-4d93-4102-b02d-906bd8e27e5d'
+settings:
+  id: 'block_content:4593c21f-4d93-4102-b02d-906bd8e27e5d'
+  label: Contato
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 4b9144ef-840d-40d2-94ce-d25cee926206
+langcode: en
+status: true
+dependencies:
+  theme:
+    - nttdata
+_core:
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: nttdata_local_actions
+theme: nttdata
+region: header
+weight: 20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

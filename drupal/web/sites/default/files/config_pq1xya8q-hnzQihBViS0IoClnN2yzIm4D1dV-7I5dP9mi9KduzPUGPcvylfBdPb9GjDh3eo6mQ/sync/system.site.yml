@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: c07cd6af-dabd-477e-aa9e-289a9d7a5fd5
+name: 'Movies NTTDATA'
+mail: rafaelsantosweb@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/22
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: ''

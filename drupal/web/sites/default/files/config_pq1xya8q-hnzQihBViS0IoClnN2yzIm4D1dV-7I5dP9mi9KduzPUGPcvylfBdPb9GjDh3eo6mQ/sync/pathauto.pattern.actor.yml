@@ -1,0 +1,22 @@
+uuid: 57f7af3d-66ac-4ad9-89b6-e045889ea398
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: actor
+label: Actor
+type: 'canonical_entities:node'
+pattern: '/actor/[node:title]'
+selection_criteria:
+  ea6cdcd2-4ae0-49fb-b751-c1e696fb8fa3:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: ea6cdcd2-4ae0-49fb-b751-c1e696fb8fa3
+    context_mapping:
+      node: node
+    bundles:
+      actor: actor
+selection_logic: and
+weight: -5
+relationships: {  }

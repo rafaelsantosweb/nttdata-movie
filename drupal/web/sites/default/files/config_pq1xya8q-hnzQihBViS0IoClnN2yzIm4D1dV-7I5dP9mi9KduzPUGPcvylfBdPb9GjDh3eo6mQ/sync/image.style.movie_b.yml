@@ -1,0 +1,22 @@
+uuid: 81e7b668-0b61-424f-89b2-c718db02cefb
+langcode: en
+status: true
+dependencies: {  }
+name: movie_b
+label: 'movie Big'
+effects:
+  d99198d9-df27-45cd-a905-7df9f0112095:
+    uuid: d99198d9-df27-45cd-a905-7df9f0112095
+    id: image_resize
+    weight: 1
+    data:
+      width: 290
+      height: 435
+  ed74630c-74d0-48cb-adca-df7ccfa0b736:
+    uuid: ed74630c-74d0-48cb-adca-df7ccfa0b736
+    id: image_crop
+    weight: 2
+    data:
+      width: 290
+      height: 435
+      anchor: center-center

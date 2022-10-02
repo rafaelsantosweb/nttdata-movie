@@ -1,0 +1,51 @@
+uuid: 74411616-8277-493c-b9c5-f673cdeac10d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.actor.field_biography
+    - field.field.node.actor.field_picture
+    - node.type.actor
+  module:
+    - field_layout
+    - layout_builder
+    - layout_discovery
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+  layout_builder:
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          a401c835-1176-466a-8a21-fa78ebc819e4:
+            uuid: a401c835-1176-466a-8a21-fa78ebc819e4
+            region: content
+            configuration:
+              id: 'extra_field_block:node:actor:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+id: node.actor.teaser
+targetEntityType: node
+bundle: actor
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_biography: true
+  field_picture: true

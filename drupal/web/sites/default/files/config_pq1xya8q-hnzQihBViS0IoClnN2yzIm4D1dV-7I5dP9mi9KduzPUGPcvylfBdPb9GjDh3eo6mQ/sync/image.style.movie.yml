@@ -1,0 +1,23 @@
+uuid: 2431feda-0a84-4f6e-94a6-20e51bf77f7b
+langcode: en
+status: true
+dependencies: {  }
+name: movie
+label: 'movie Mini'
+effects:
+  6098e75c-c098-4572-ab1a-9b6098b29b65:
+    uuid: 6098e75c-c098-4572-ab1a-9b6098b29b65
+    id: image_scale
+    weight: 1
+    data:
+      width: 240
+      height: 360
+      upscale: false
+  473c1157-83b4-4e73-bfae-17daf3903f04:
+    uuid: 473c1157-83b4-4e73-bfae-17daf3903f04
+    id: image_crop
+    weight: 2
+    data:
+      width: 240
+      height: 360
+      anchor: center-center

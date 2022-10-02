@@ -1,0 +1,184 @@
+uuid: cbf02b14-548d-4b48-b37d-202aeda08bdd
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.base_field_override.node.movie.title
+    - field.field.node.movie.field_date
+    - field.field.node.movie.field_genre
+    - field.field.node.movie.field_list_actors
+    - field.field.node.movie.field_poster
+    - field.field.node.movie.field_spotlight
+    - field.field.node.movie.field_synopsis
+    - node.type.movie
+    - views.view.movie
+  module:
+    - field_layout
+    - image
+    - layout_builder
+    - layout_discovery
+    - text
+    - user
+    - views
+  theme:
+    - bootstrap_barrio
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+  layout_builder:
+    enabled: true
+    sections:
+      -
+        layout_id: barrio_col2-3-9
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+        components:
+          8e273d77-b2bd-42e2-a148-68831072b54b:
+            uuid: 8e273d77-b2bd-42e2-a148-68831072b54b
+            region: first
+            configuration:
+              id: 'field_block:node:movie:field_poster'
+              label: Poster
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: image
+                label: hidden
+                settings:
+                  image_link: ''
+                  image_style: movie_b
+                  image_loading:
+                    attribute: lazy
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          2e452baf-893f-4624-9e4a-afa46392b684:
+            uuid: 2e452baf-893f-4624-9e4a-afa46392b684
+            region: top
+            configuration:
+              id: 'field_block:node:movie:title'
+              label: Name
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: string
+                label: hidden
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          3fda11ce-9f03-40f5-a056-61c5813cf5fd:
+            uuid: 3fda11ce-9f03-40f5-a056-61c5813cf5fd
+            region: second
+            configuration:
+              id: 'field_block:node:movie:field_synopsis'
+              label: Synopsis
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          80d92021-f846-4f3f-8cb4-ab6b07fc7d11:
+            uuid: 80d92021-f846-4f3f-8cb4-ab6b07fc7d11
+            region: bottom
+            configuration:
+              id: 'field_block:node:movie:field_list_actors'
+              label: 'List Actors'
+              label_display: visible
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_label
+                label: hidden
+                settings:
+                  link: false
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+        components:
+          c18338d5-7900-4eff-9b3e-11dc50c14010:
+            uuid: c18338d5-7900-4eff-9b3e-11dc50c14010
+            region: content
+            configuration:
+              id: 'views_block:movie-block_movie_relation'
+              label: ''
+              label_display: visible
+              provider: views
+              context_mapping: {  }
+              views_label: ''
+              items_per_page: '3'
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+id: node.movie.default
+targetEntityType: node
+bundle: movie
+mode: default
+content:
+  field_genre:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_list_actors:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_poster:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_synopsis:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_date: true
+  field_spotlight: true

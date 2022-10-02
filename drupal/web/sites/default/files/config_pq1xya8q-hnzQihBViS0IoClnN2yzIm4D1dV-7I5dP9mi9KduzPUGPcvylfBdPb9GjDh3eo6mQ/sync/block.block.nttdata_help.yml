@@ -1,0 +1,22 @@
+uuid: 5e7adb1c-1314-4ff9-a1a3-54d3070bdd81
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - nttdata
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: nttdata_help
+theme: nttdata
+region: header
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

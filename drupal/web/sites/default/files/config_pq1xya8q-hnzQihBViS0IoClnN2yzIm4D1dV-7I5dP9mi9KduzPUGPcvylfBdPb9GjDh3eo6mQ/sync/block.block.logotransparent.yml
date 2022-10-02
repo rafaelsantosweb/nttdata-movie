@@ -1,0 +1,25 @@
+uuid: f29a0acc-f25a-4021-a43d-57a704d4987a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ab6564ea-64cd-4036-8a97-17e1d8aa5776'
+  module:
+    - block_content
+  theme:
+    - bootstrap_barrio_subtheme
+id: logotransparent
+theme: bootstrap_barrio_subtheme
+region: footer_fourth
+weight: -7
+provider: null
+plugin: 'block_content:ab6564ea-64cd-4036-8a97-17e1d8aa5776'
+settings:
+  id: 'block_content:ab6564ea-64cd-4036-8a97-17e1d8aa5776'
+  label: 'Logo transparent'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

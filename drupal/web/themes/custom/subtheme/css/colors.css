@@ -188,7 +188,7 @@ body.toolbar-horizontal.toolbar-tray-open #navbar-main.fixed-top {
 
 .block-views-blockmovie-block-movie-spotlight {
   text-align: center;
-  margin-top: 3em;
+  margin-top: 4em;
 }
 
 .view-display-id-block_movie_spotlight .views-field-title  {
@@ -213,4 +213,8 @@ body.toolbar-horizontal.toolbar-tray-open #navbar-main.fixed-top {
 
 .view-display-id-block_movie_spotlight .pagination {
   float: right;
+}
+
+.breadcrumb { 
+  margin-top: 2em;
 }

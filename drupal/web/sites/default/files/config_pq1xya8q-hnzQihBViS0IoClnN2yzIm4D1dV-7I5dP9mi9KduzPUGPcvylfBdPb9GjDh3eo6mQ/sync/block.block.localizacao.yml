@@ -1,0 +1,25 @@
+uuid: 17ee7c9f-ce3e-4827-8e2a-c5441c17f720
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:051a1096-9a75-4e02-ad84-338cb9e78171'
+  module:
+    - block_content
+  theme:
+    - bootstrap_barrio_subtheme
+id: localizacao
+theme: bootstrap_barrio_subtheme
+region: footer_second
+weight: 0
+provider: null
+plugin: 'block_content:051a1096-9a75-4e02-ad84-338cb9e78171'
+settings:
+  id: 'block_content:051a1096-9a75-4e02-ad84-338cb9e78171'
+  label: Localização
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

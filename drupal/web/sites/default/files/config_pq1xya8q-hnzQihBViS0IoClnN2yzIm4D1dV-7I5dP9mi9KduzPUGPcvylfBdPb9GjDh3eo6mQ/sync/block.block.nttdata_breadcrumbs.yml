@@ -1,0 +1,22 @@
+uuid: 948a932f-3447-43d5-a5c3-b263ec14c639
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - nttdata
+_core:
+  default_config_hash: wDR9JKEATSWldBjw8du8s3G2zjEYeQf88nlld11hMLo
+id: nttdata_breadcrumbs
+theme: nttdata
+region: header
+weight: -100
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }
